@@ -1,0 +1,64 @@
+    /* Checking if jQuery installed
+    if(typeof jQuery != undefined){
+        alert("jQuery is installed!!");
+    } else {
+        alert("jQuery is not installed!");
+    }
+    */
+    
+    /* iframe changing attributes
+    $(document).ready(function(){
+        
+        $("iframe").attr(src, "http://yahoo.com");  
+        });
+    */
+    
+    /* Style Changing
+    $(document).ready(function(){
+        $("div").click(function(){
+           var squareWidth= $(".square").css("width");
+           var circleWidth= $("#circle").css("width");
+           
+           $("#circle").css("width", squareWidth);
+           $(".square").css("width", circleWidth);
+        });
+    });
+    */
+    
+    /* Fading
+    $(document).ready(function(){
+  
+     $("#b").click(function(){
+         $("p").fadeOut();
+     });
+     
+       $("#b2").click(function(){
+         $("p").fadeIn();
+     });
+     });
+    
+    */
+    
+        /* Animation
+    $(document).ready(function(){
+        
+        $("#circle").click(function(){
+            $(this).animate({
+                width: "300px",
+                height: "300px",
+                marginLeft: "200px"
+                
+                }, 2000);
+        });
+    });
+    */
+    
+    /*
+        $.ajax({
+        url: "http://79.170.40.229/chriswtam.com/index.html"
+    }).done(function(data){
+        alert(data);
+    });
+    */
+    
+    /*

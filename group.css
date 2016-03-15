@@ -1,0 +1,22 @@
+
+.square {
+    
+    
+    background-color:red;
+    height: 100px;
+    width: 300px;
+    padding: 100px;
+    margin-top: 20px;
+    margin-bottom:20px;
+
+}
+#circle {
+
+    
+    background-color:green;
+    height: 100px;
+    width: 100px;
+    padding: 100px;
+    border-radius:100%;
+
+}
